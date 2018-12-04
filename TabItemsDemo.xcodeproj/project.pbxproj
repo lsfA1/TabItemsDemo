@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C620F94F2ED00AAC7904410 /* libPods-TabItemsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D153045C8EB1F34B8297B87 /* libPods-TabItemsDemo.a */; };
 		7171153021B65A3200363479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171152F21B65A3200363479 /* AppDelegate.m */; };
 		7171153321B65A3200363479 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171153221B65A3200363479 /* ViewController.m */; };
 		7171153621B65A3200363479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7171153421B65A3200363479 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		7171153E21B65A3400363479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171153D21B65A3400363479 /* main.m */; };
 		7171154821B65A3400363479 /* TabItemsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171154721B65A3400363479 /* TabItemsDemoTests.m */; };
 		7171155321B65A3400363479 /* TabItemsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171155221B65A3400363479 /* TabItemsDemoUITests.m */; };
+		7171156221B65C0D00363479 /* TabItemsCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7171156121B65C0D00363479 /* TabItemsCollectionCell.m */; };
+		7171156521B66A6400363479 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7171156421B66A6400363479 /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D153045C8EB1F34B8297B87 /* libPods-TabItemsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabItemsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7171152B21B65A3200363479 /* TabItemsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabItemsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7171152E21B65A3200363479 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7171152F21B65A3200363479 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,11 @@
 		7171154E21B65A3400363479 /* TabItemsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabItemsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7171155221B65A3400363479 /* TabItemsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabItemsDemoUITests.m; sourceTree = "<group>"; };
 		7171155421B65A3400363479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7171156021B65C0D00363479 /* TabItemsCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabItemsCollectionCell.h; sourceTree = "<group>"; };
+		7171156121B65C0D00363479 /* TabItemsCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabItemsCollectionCell.m; sourceTree = "<group>"; };
+		7171156421B66A6400363479 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		89367559F946008572987A00 /* Pods-TabItemsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabItemsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabItemsDemo/Pods-TabItemsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CF5D59FE64380EFC3491A175 /* Pods-TabItemsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabItemsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabItemsDemo/Pods-TabItemsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C620F94F2ED00AAC7904410 /* libPods-TabItemsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				7171154621B65A3400363479 /* TabItemsDemoTests */,
 				7171155121B65A3400363479 /* TabItemsDemoUITests */,
 				7171152C21B65A3200363479 /* Products */,
+				DE9CE181E4A6DF5ED0E03D83 /* Pods */,
+				F3738A0064DE57B96941BB4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +113,13 @@
 		7171152D21B65A3200363479 /* TabItemsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7171156321B66A6400363479 /* img */,
 				7171152E21B65A3200363479 /* AppDelegate.h */,
 				7171152F21B65A3200363479 /* AppDelegate.m */,
 				7171153121B65A3200363479 /* ViewController.h */,
 				7171153221B65A3200363479 /* ViewController.m */,
+				7171156021B65C0D00363479 /* TabItemsCollectionCell.h */,
+				7171156121B65C0D00363479 /* TabItemsCollectionCell.m */,
 				7171153421B65A3200363479 /* Main.storyboard */,
 				7171153721B65A3400363479 /* Assets.xcassets */,
 				7171153921B65A3400363479 /* LaunchScreen.storyboard */,
@@ -132,6 +147,31 @@
 			path = TabItemsDemoUITests;
 			sourceTree = "<group>";
 		};
+		7171156321B66A6400363479 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7171156421B66A6400363479 /* 01.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		DE9CE181E4A6DF5ED0E03D83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D59FE64380EFC3491A175 /* Pods-TabItemsDemo.debug.xcconfig */,
+				89367559F946008572987A00 /* Pods-TabItemsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3738A0064DE57B96941BB4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D153045C8EB1F34B8297B87 /* libPods-TabItemsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7171155721B65A3400363479 /* Build configuration list for PBXNativeTarget "TabItemsDemo" */;
 			buildPhases = (
+				A1C3521A78336793DE47FBD0 /* [CP] Check Pods Manifest.lock */,
 				7171152721B65A3200363479 /* Sources */,
 				7171152821B65A3200363479 /* Frameworks */,
 				7171152921B65A3200363479 /* Resources */,
@@ -237,6 +278,7 @@
 			files = (
 				7171153B21B65A3400363479 /* LaunchScreen.storyboard in Resources */,
 				7171153821B65A3400363479 /* Assets.xcassets in Resources */,
+				7171156521B66A6400363479 /* 01.png in Resources */,
 				7171153621B65A3200363479 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,11 +299,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1C3521A78336793DE47FBD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabItemsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7171152721B65A3200363479 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7171156221B65C0D00363479 /* TabItemsCollectionCell.m in Sources */,
 				7171153321B65A3200363479 /* ViewController.m in Sources */,
 				7171153E21B65A3400363479 /* main.m in Sources */,
 				7171153021B65A3200363479 /* AppDelegate.m in Sources */,
@@ -433,11 +497,13 @@
 		};
 		7171155821B65A3400363479 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5D59FE64380EFC3491A175 /* Pods-TabItemsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH8H77TR8E;
 				INFOPLIST_FILE = TabItemsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +516,13 @@
 		};
 		7171155921B65A3400363479 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89367559F946008572987A00 /* Pods-TabItemsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH8H77TR8E;
 				INFOPLIST_FILE = TabItemsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
